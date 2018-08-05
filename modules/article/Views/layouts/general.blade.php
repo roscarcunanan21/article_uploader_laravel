@@ -23,7 +23,6 @@
 	    <meta property="fb:admins" content="">
 	    <meta property="og:image" content="{{ baseurl() }}assets/images/common/ogp.png">
 	    <meta name="apple-mobile-web-app-title" content="">
-	    <link rel="shortcut icon" href="{{ baseurl() }}assets/images/common/favicon.ico">
 	    <link rel="apple-touch-icon-precomposed" href="{{ baseurl() }}images/common/apple-touch-icon-precomposed.png">
 	    <link rel="stylesheet" href="{{ baseurl() }}assets/css/style.css">
 	    <script src="{{ baseurl() }}assets/lib/modernizr.js"></script>
