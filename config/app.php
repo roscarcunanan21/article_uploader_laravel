@@ -91,7 +91,8 @@ return [
     |
     */
 
-    'key' => md5('cirillia'),
+    // 'key' => md5('cirillia'),
+    'key' => env('APP_KEY', 'asd14313n51knr98hrafnoanfq3h401-'),
 
     'cipher' => 'AES-256-CBC',
 
