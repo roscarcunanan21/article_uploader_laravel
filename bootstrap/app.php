@@ -55,13 +55,13 @@ $localhost = array(
 if (in_array($hostname, $localhost)) {
 
 	if (! defined('ENVIRONMENT')) {
-		define('ENVIRONMENT', 'local');
+		define('ENVIRONMENT', 'production');
 	}
 
 } else {
 
 	if (! defined('ENVIRONMENT')) {
-		define('ENVIRONMENT', 'production');
+		define('ENVIRONMENT', 'local');
 	}
 }
 
