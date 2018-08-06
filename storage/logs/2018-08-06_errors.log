@@ -33,3 +33,13 @@
 ----
 {"Trace":"2018-08-06 07:16:16 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/index.php] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/index.php"} 
 ----
+{"Trace":"2018-08-06 07:44:24 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/css\/parsley.css] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/css\/parsley.css"} 
+----
+{"Trace":"2018-08-06 07:44:40 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/css\/parsley.css] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/css\/parsley.css"} 
+----
+{"Trace":"2018-08-06 07:45:03 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/css\/style.css] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/css\/style.css"} 
+----
+{"Trace":"2018-08-06 07:48:55 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/css\/parsley.css] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/css\/parsley.css"} 
+----
+{"Trace":"2018-08-06 07:49:00 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/css\/parsley.css] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/css\/parsley.css"} 
+----

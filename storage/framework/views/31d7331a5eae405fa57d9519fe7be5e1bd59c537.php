@@ -24,7 +24,8 @@
     <meta name="apple-mobile-web-app-title" content="">
 
     <link rel="apple-touch-icon-precomposed" href="<?php echo e(baseurl()); ?>images/common/apple-touch-icon-precomposed.png">
-    <link rel="stylesheet" href="<?php echo e(baseurl()); ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
+    
 
     <script src="<?php echo e(baseurl()); ?>assets/lib/modernizr.js"></script>
 

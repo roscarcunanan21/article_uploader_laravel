@@ -24,7 +24,8 @@
     <meta name="apple-mobile-web-app-title" content="">
 
     <link rel="apple-touch-icon-precomposed" href="{{ baseurl() }}images/common/apple-touch-icon-precomposed.png">
-    <link rel="stylesheet" href="{{ baseurl() }}assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    
 
     <script src="{{ baseurl() }}assets/lib/modernizr.js"></script>
 
