@@ -9,8 +9,7 @@ if (typeof jQuery === 'undefined') {
 	Rosie.prototype.run = function () {
 		// Set a minimum resolution for mobile
 		// and force landscape viewing
-		// this.orientation_check();		
-		// Booking page
+		// this.orientation_check();
 		
 		var current_context = this;
 		current_context.details(true);
@@ -116,9 +115,6 @@ if (typeof jQuery === 'undefined') {
 			if (! is_error(response)) {	
 				var response_object = JSON.parse(response);
 				if (response_object['status'] == 200){
-					var image_url = url.replace('/article','');
-					image_url = image_url.replace('/archive','');
-					image_url = image_url.replace('#','');
 					// alert(image_url);
 					var articles = response_object['response'].results;
 					var total_articles_count = response_object['response'].count;

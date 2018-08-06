@@ -61,7 +61,8 @@ class AdminModel
 		// print_r($_FILES);
 		$data = array(
 			'title' 		=> $_POST['article-title'],
-			'content' 		=> $_POST['article-content']
+			'content' 		=> $_POST['article-content'],
+			'created'		=> time()
 		);
 		if($filename != ''){
 			$data['image'] = $filename;

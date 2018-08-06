@@ -118,31 +118,6 @@ gulp.task('rosies', function () {
 		]
 	});
 
-
-	// Booking App
-	// --------------------------
-
-	// CSS
-	__fn_optimize_assets('css', {
-		file: 'app.min.css',
-		dest: project_location + 'public/modules/booking/build',
-		files: [
-			project_location + 'public/modules/booking/css/app.css'
-		]
-	});
-
-
-	// Javascript
-	__fn_optimize_assets('js', {
-		file: 'app.min.js',
-		dest: project_location + 'public/modules/booking/build',
-		files: [
-			project_location + 'public/assets/js/plugins.js',
-			project_location + 'public/modules/booking/js/app.js'
-		]
-	});
-
-
 	// Admin Console App
 	// --------------------------
 

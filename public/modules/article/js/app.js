@@ -9,8 +9,7 @@ if (typeof jQuery === 'undefined') {
 	Rosie.prototype.run = function () {
 		// Set a minimum resolution for mobile
 		// and force landscape viewing
-		// this.orientation_check();		
-		// Booking page
+		// this.orientation_check();
 		
 		var current_context = this;
 		current_context.details(true);
@@ -66,6 +65,7 @@ if (typeof jQuery === 'undefined') {
 							var image_url = url.replace(res[0],'');
 							image_url = image_url.replace('#','');
 							var article = response_object['response'];
+							var imagefile = (article.image == null) ? '' : image_url+'/assets/images/'+article.image;
 							var monthNames = ["JAN","FEB","MAR","APR", "MAY", "JUN", "JUL","AUG", "SEP", "OCT","NOV", "DEC"];	
 							var utcSeconds = article.created;
 							var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
@@ -73,7 +73,7 @@ if (typeof jQuery === 'undefined') {
 							
 							$("#single-title").text(article.title);
 							$("#single-content").text(article.content);
-							$('#single-image').attr('src',image_url+'/assets/images/'+article.image);						
+							$('#single-image').attr('src',imagefile);						
 							$('#single-date').attr('datetime',d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate());
 							$('#single-date').text(d.getDate()+' '+monthNames[d.getMonth()]+', '+d.getFullYear());
 						}
@@ -113,13 +113,14 @@ if (typeof jQuery === 'undefined') {
 					var total_articles_count = response_object['response'].count;
 					// alert(total_articles_count);
 					$("#archive-list").empty();
-					for (var i = 0; i < articles.length; i++){	
+					for (var i = 0; i < articles.length; i++){
+						var imagefile = (articles[i].image == null) ? '' : image_url+'/assets/images/'+articles[i].image;
 						var monthNames = ["JAN","FEB","MAR","APR", "MAY", "JUN", "JUL","AUG", "SEP", "OCT","NOV", "DEC"];	
 						var utcSeconds = articles[i].created;
 						var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
 						d.setUTCSeconds(utcSeconds);
 																
-						$("#archive-list").append('<li class="archive-item"><article class="card"><a href="'+image_url+'/article/single/'+articles[i].id+'" class="card-link"><img src="'+image_url+'/assets/images/'+articles[i].image+'" alt="" class="card-image"><div class="card-bottom"><h1 class="card-title">'+articles[i].title+'</h1><time class="card-date" datetime="'+d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate()+'">'+d.getDate()+' '+monthNames[d.getMonth()]+', '+d.getFullYear()+'</time></div></a></article></li>');
+						$("#archive-list").append('<li class="archive-item"><article class="card"><a href="'+image_url+'/article/single/'+articles[i].id+'" class="card-link"><img src="'+imagefile+'" alt="" class="card-image"><div class="card-bottom"><h1 class="card-title">'+articles[i].title+'</h1><time class="card-date" datetime="'+d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate()+'">'+d.getDate()+' '+monthNames[d.getMonth()]+', '+d.getFullYear()+'</time></div></a></article></li>');
 					}		
 					if (archive_mode){
 						// set the page numbers

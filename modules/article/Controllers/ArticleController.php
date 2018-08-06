@@ -4,8 +4,6 @@ namespace Modules\Article\Controllers;
 
 use Input;
 use Modules\Article\Models\ArticleModel;
-use Modules\Article\Models\GeneratorModel;
-use Modules\Article\Models\ReviewModel;
 use Aes;
 use Msg;
 

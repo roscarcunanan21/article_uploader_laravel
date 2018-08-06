@@ -1,0 +1,27 @@
+{"Trace":"2018-08-06 03:34:19 AM","Error Code":"42S02","Message":"Something went terribly wrong.","Line":729,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php","Source":"http:\/\/localhost\/lig\/public\/article\/all"} 
+----
+{"Trace":"2018-08-06 03:37:36 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdadad"} 
+--{"Trace":"2018-08-06 03:37:36 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdasdasda"} 
+----
+{"Trace":"2018-08-06 03:37:37 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdadad"} 
+----
+{"Trace":"2018-08-06 03:38:20 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdadad"} 
+----
+{"Trace":"2018-08-06 03:38:20 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/null"} 
+----
+{"Trace":"2018-08-06 03:38:20 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdasdasda"} 
+----
+{"Trace":"2018-08-06 03:38:22 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdadad"} 
+----
+{"Trace":"2018-08-06 03:38:22 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/asdasdasda"} 
+----
+{"Trace":"2018-08-06 03:45:28 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":67,"File":"C:\\xampp\\htdocs\\lig\\modules\\article\\Models\\ArticleModel.php","Source":"http:\/\/localhost\/lig\/public\/article\/all"} 
+----
+{"Trace":"2018-08-06 03:45:32 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":67,"File":"C:\\xampp\\htdocs\\lig\\modules\\article\\Models\\ArticleModel.php","Source":"http:\/\/localhost\/lig\/public\/article\/all"} 
+----
+{"Trace":"2018-08-06 03:48:21 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/null"} 
+----
+{"Trace":"2018-08-06 03:48:23 AM","Error Code":0,"Message":"Something went terribly wrong.","Line":8912,"File":"C:\\xampp\\htdocs\\lig\\bootstrap\\cache\\compiled.php","Source":"http:\/\/localhost\/lig\/public\/assets\/images\/null"} 
+----
+{"Message":"authenticate redirecting"} 
+----
