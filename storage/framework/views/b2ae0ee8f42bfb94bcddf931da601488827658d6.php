@@ -23,7 +23,6 @@
 
     <meta name="apple-mobile-web-app-title" content="">
 
-    <link rel="shortcut icon" href="<?php echo e(baseurl()); ?>assets/images/common/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="<?php echo e(baseurl()); ?>images/common/apple-touch-icon-precomposed.png">
     <link rel="stylesheet" href="<?php echo e(baseurl()); ?>assets/css/style.css">
 
