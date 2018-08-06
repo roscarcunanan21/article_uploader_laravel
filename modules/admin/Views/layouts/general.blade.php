@@ -19,15 +19,15 @@
     <meta property="og:site_name" content="">
     <meta property="og:type" content="blog">
     <meta property="fb:admins" content="">
-    <meta property="og:image" content="{{ baseurl() }}assets/images/common/ogp.png">
+    <meta property="og:image" content="{{ asset('assets/images/common/ogp.png') }}">
 
     <meta name="apple-mobile-web-app-title" content="">
 
-    <link rel="apple-touch-icon-precomposed" href="{{ baseurl() }}images/common/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('images/common/apple-touch-icon-precomposed.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     
 
-    <script src="{{ baseurl() }}assets/lib/modernizr.js"></script>
+    <script src="{{ asset('assets/lib/modernizr.js') }}"></script>
 
 </head>
 <body id="js-body">
@@ -46,7 +46,7 @@
             <div class="l-header-logo">
             
 <a class="logo " href="{{ baseurl() }}article">
-    <img src="{{ baseurl() }}assets/images/logo-admin.png" width="138" height="28" alt="BLOG"/>
+    <img src="{{ asset('assets/images/logo-admin.png') }}" width="138" height="28" alt="BLOG"/>
 </a>
 
             </div>
@@ -81,11 +81,11 @@
             console.log('%c'+__PRJ_INFO.join(' | '), 'padding: 0 14px; border-left: 7px solid #53082a; border-right: 7px solid #53082a; background: #d11569; color: #fff;');
         </script>        
         <!--javascript ここから-->
-        <script src="{{ baseurl() }}assets/lib/jquery-3.1.1.min.js"></script>
-        <script src="{{ baseurl() }}assets/build/vendors.min.js"></script>
-        <script src="{{ baseurl() }}assets/js/plugins.js"></script>
-        <script src="{{ baseurl() }}assets/js/app.js"></script>
-        <script src="{{ MODULE_ASSETS_URL }}/js/app.js"></script>
+        <script src="{{ asset('assets/lib/jquery-3.1.1.min.js') }}"></script>
+        <script src="{{ asset('assets/build/vendors.min.js') }}"></script>
+        <script src="{{ asset('assets/js/plugins.js') }}"></script>
+        <script src="{{ asset('assets/js/app.js') }}"></script>
+        <script src="{{ asset('modules/admin/js/app.js') }}"></script>
         <!--javascript ここまで-->
     </body>
 </html>

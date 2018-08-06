@@ -19,15 +19,15 @@
     <meta property="og:site_name" content="">
     <meta property="og:type" content="blog">
     <meta property="fb:admins" content="">
-    <meta property="og:image" content="<?php echo e(baseurl()); ?>assets/images/common/ogp.png">
+    <meta property="og:image" content="<?php echo e(asset('assets/images/common/ogp.png')); ?>">
 
     <meta name="apple-mobile-web-app-title" content="">
 
-    <link rel="apple-touch-icon-precomposed" href="<?php echo e(baseurl()); ?>images/common/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo e(asset('images/common/apple-touch-icon-precomposed.png')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
     
 
-    <script src="<?php echo e(baseurl()); ?>assets/lib/modernizr.js"></script>
+    <script src="<?php echo e(asset('assets/lib/modernizr.js')); ?>"></script>
 
 </head>
 <body id="js-body">
@@ -46,7 +46,7 @@
             <div class="l-header-logo">
             
 <a class="logo " href="<?php echo e(baseurl()); ?>article">
-    <img src="<?php echo e(baseurl()); ?>assets/images/logo-admin.png" width="138" height="28" alt="BLOG"/>
+    <img src="<?php echo e(asset('assets/images/logo-admin.png')); ?>" width="138" height="28" alt="BLOG"/>
 </a>
 
             </div>
@@ -81,11 +81,11 @@
             console.log('%c'+__PRJ_INFO.join(' | '), 'padding: 0 14px; border-left: 7px solid #53082a; border-right: 7px solid #53082a; background: #d11569; color: #fff;');
         </script>        
         <!--javascript ここから-->
-        <script src="<?php echo e(baseurl()); ?>assets/lib/jquery-3.1.1.min.js"></script>
-        <script src="<?php echo e(baseurl()); ?>assets/build/vendors.min.js"></script>
-        <script src="<?php echo e(baseurl()); ?>assets/js/plugins.js"></script>
-        <script src="<?php echo e(baseurl()); ?>assets/js/app.js"></script>
-        <script src="<?php echo e(MODULE_ASSETS_URL); ?>/js/app.js"></script>
+        <script src="<?php echo e(asset('assets/lib/jquery-3.1.1.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/build/vendors.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/plugins.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/app.js')); ?>"></script>
+        <script src="<?php echo e(asset('modules/admin/js/app.js')); ?>"></script>
         <!--javascript ここまで-->
     </body>
 </html>
