@@ -31,3 +31,5 @@
 ----
 {"Trace":"2018-08-06 05:09:40 AM","Error Code":"42S22","Message":"Something went terribly wrong.","Line":729,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php","Source":"http:\/\/localhost\/lig\/public\/admin\/login"} 
 ----
+{"Trace":"2018-08-06 07:16:16 AM","Error Code":0,"Message":"Requested URL: [http:\/\/localhost\/lig\/public\/index.php] was not found.","Line":161,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php","Source":"http:\/\/localhost\/lig\/public\/index.php"} 
+----
