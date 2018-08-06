@@ -436,7 +436,9 @@ if (! function_exists('baseurl')) {
         if ($server_host) {
 
             $host = trim(preg_replace('/[^a-z \d \. _]/i ', '', strip_tags($server_host)));
-            $protocol = (isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
+            // $protocol = (isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] == 'on') ? 'https' : 'http';
+            $protocol = "https";
+			if ($host == 'localhost')$protocol = "http";
             $location = substr(str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']), 0, -1);
             $base_url = "{$protocol}://{$host}{$location}/";
             
