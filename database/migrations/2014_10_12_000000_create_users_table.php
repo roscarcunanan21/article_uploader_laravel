@@ -13,25 +13,27 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users2', function (Blueprint $table) {
+        Schema::create('user', function (Blueprint $table) {
             $table->increments('user_id');
             $table->integer('user_type_id');
             $table->string('firstname', 50);
             $table->string('lastname', 50);
-            $table->string('email', 50)->unique();
-            $table->string('username', 50);
-            $table->text('password');
-            $table->text('salt');
-            $table->rememberToken();
+            $table->string('email', 50)->unique()->nullable();
+            $table->string('username', 50)->nullable();
+            $table->text('password')->nullable();
+            $table->text('salt')->nullable();
+            $table->string('avatar', 40)->nullable();
+            $table->integer('is_active')->nullable()->default('1');
+            $table->rememberToken()->nullable();
             $table->timestamps();
         });
 		
-        Schema::create('user_type2', function (Blueprint $table) {
+        Schema::create('user_type', function (Blueprint $table) {
             $table->increments('user_type_id');
             $table->string('user_type', 20);
         });		
 		
-        Schema::create('article2', function (Blueprint $table) {
+        Schema::create('article', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title', 50);
             $table->text('content');
@@ -47,8 +49,8 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('users');
-        Schema::drop('user_type2');
-        Schema::drop('article2');
+        Schema::drop('user');
+        Schema::drop('user_type');
+        Schema::drop('article');
     }
 }

@@ -25,3 +25,9 @@
 ----
 {"Message":"authenticate redirecting"} 
 ----
+{"Trace":"2018-08-06 05:06:28 AM","Error Code":"42S22","Message":"Something went terribly wrong.","Line":729,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php","Source":"http:\/\/localhost\/lig\/public\/admin\/login"} 
+----
+{"Trace":"2018-08-06 05:07:05 AM","Error Code":"42S22","Message":"Something went terribly wrong.","Line":729,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php","Source":"http:\/\/localhost\/lig\/public\/admin\/login"} 
+----
+{"Trace":"2018-08-06 05:09:40 AM","Error Code":"42S22","Message":"Something went terribly wrong.","Line":729,"File":"C:\\xampp\\htdocs\\lig\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php","Source":"http:\/\/localhost\/lig\/public\/admin\/login"} 
+----
